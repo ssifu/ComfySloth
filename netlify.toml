@@ -1,4 +1,7 @@
+[build]
+    publish = "dist"
+    functions = "./functions"
+
 [dev]
-framework = "vite"
-command = "npm run dev"
-targetPort = 8888
+    framework = "vite"
+    command = "npm run serve"

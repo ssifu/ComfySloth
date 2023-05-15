@@ -44,6 +44,7 @@ const cart_reducer = (state, action) => {
   }
 
   if (action.type === CLEAR_CART) {
+    console.log("Clear Cart Called");
     return { ...state, cart: [] };
   }
 
