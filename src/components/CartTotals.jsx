@@ -24,9 +24,9 @@ const CartTotals = () => {
           </h4>
         </article>
         {myUser ? (
-          <Link to={"/checkout"} className="btn">
+          <button className="btn" type="button">
             proceed to checkout
-          </Link>
+          </button>
         ) : (
           <button type="button" onClick={loginWithRedirect} className="btn">
             login to checkout
